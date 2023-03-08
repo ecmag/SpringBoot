@@ -25,11 +25,11 @@ import org.springframework.http.HttpStatus;
 import java.util.List;
 import java.util.Optional;
 
+/* Controlador para la actualizacion de la Tabla Empleados por medio JPA mediante un Modelo directo a la TABLA*/
 @RestController
 @RequestMapping("/SysRecursosHumanos/")
 //CORS (Cross-Origin Resource Sharing) es un mecanismo que, a través de las cabeceras de los encabezados HTTP, va a permitir a un determinado cliente (User-Agent) a acceder a los recursos de un servidor diferente al del servidor actual
-//intercambiar recursos entre BAKCEND y FRONTEND
-@CrossOrigin(origins = "http://localhost:4200")
+//intercambiar recursos entre BAKCEND y FRONTEND@CrossOrigin(origins = "http://localhost:4200")
 public class EmpleadoControlador {
 
 	@Autowired
